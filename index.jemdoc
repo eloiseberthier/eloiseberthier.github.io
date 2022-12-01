@@ -25,11 +25,11 @@ Before that, I have worked in the [https://www.epfl.ch/labs/mlo/ MLO] team, unde
 
 == Thesis defense!
 
-I have defended my thesis on Thursday, October 27, at Inria Paris. You can download the [thesis_updated.pdf manuscript]. You can also have a look at the [slides_defense.pdf slides]. 
+I have defended my thesis on Thursday, October 27th 2022, at Inria Paris. You can download the [thesis_updated.pdf manuscript]. You can also have a look at the [slides_defense.pdf slides].
 
 == Recent Publications and Preprints
 
-- E. Berthier, Z. Kobeissi, F. Bach. *A Non-asymptotic Analysis of Non-parametric Temporal-Difference Learning*. /Advances in Neural Information Processing Systems (NeurIPS)/, 2022. \n\[[https://hal.archives-ouvertes.fr/hal-03672958 hal]\] \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\>
+- E. Berthier, Z. Kobeissi, F. Bach. *A Non-asymptotic Analysis of Non-parametric Temporal-Difference Learning*. /Advances in Neural Information Processing Systems (NeurIPS)/, 2022. \n\[[https://hal.archives-ouvertes.fr/hal-03672958 hal], [poster_neurips.pdf poster], [slides_neurips.pdf slides]\] \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\>
 \<div class=\"toggle-wrap\"\>
 *Abstract:* Temporal-difference learning is a popular algorithm for policy evaluation. In this paper, we study the convergence of the regularized non-parametric TD(0) algorithm, in both the independent and Markovian observation settings. In particular, when TD is performed in a universal reproducing kernel Hilbert space (RKHS), we prove convergence of the averaged iterates to the optimal value function, even when it does not belong to the RKHS. We provide explicit convergence rates that depend on a source condition relating the regularity of the optimal value function to the RKHS. We illustrate this convergence numerically on a simple continuous-state Markov reward process. 
 \<\/div\>
