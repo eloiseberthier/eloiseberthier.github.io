@@ -1,10 +1,47 @@
 # jemdoc: menu{./MENU}{ressources.html}
 # addjs{./jquery}
-= Resources
+= Research
 
 ~~~
 
 == Publications and Preprints
+
+A more up-to-date list might be found on my [https://scholar.google.fr/citations?user=-PQBEZMAAAAJ&hl=fr Google Scholar].
+
+
+
+- R. Kazmierczak, E. Berthier, G. Frehse, G. Franchi. *Explainability for Vision Foundation Models: A Survey*. /Information Fusion/, 2025. \n\[[https://arxiv.org/pdf/2501.12203 arxiv]\] \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\>
+\<div class=\"toggle-wrap\"\>
+*Abstract:* As artificial intelligence systems become increasingly integrated into daily life, the field of explainability has gained significant attention. This trend is particularly driven by the complexity of modern AI models and their decision-making processes. The advent of foundation models, characterized by their extensive generalization capabilities and emergent uses, has further complicated this landscape. Foundation models occupy an ambiguous position in the explainability domain: their complexity makes them inherently challenging to interpret, yet they are increasingly leveraged as tools to construct explainable models. In this survey, we explore the intersection of foundation models and eXplainable AI (XAI) in the vision domain. We begin by compiling a comprehensive corpus of papers that bridge these fields. Next, we categorize these works based on their architectural characteristics. We then discuss the challenges faced by current research in integrating XAI within foundation models. Furthermore, we review common evaluation methodologies for these combined approaches. Finally, we present key observations and insights from our survey, offering directions for future research in this rapidly evolving field.
+\<\/div\>
+
+- R. Kazmierczak, S. Azzolin, E. Berthier, A. Hedström, P. Delhomme, N. Bousquet, G. Frehse, M. Mancini, B. Caramiaux, A. Passerini, G. Franchi. *Benchmarking XAI Explanations with Human-Aligned Evaluations*. /preprint/, 2024. \n\[[https://arxiv.org/pdf/2411.02470 arxiv]\] \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\>
+\<div class=\"toggle-wrap\"\>
+*Abstract:* In this paper, we introduce PASTA (Perceptual Assessment System for explanaTion of Artificial intelligence), a novel framework for a human-centric evaluation of XAI techniques in computer vision. Our first key contribution is a human evaluation of XAI explanations on four diverse datasets (COCO, Pascal Parts, Cats Dogs Cars, and MonumAI) which constitutes the first large-scale benchmark dataset for XAI, with annotations at both the image and concept levels. This dataset allows for robust evaluation and comparison across various XAI methods. Our second major contribution is a data-based metric for assessing the interpretability of explanations. It mimics human preferences, based on a database of human evaluations of explanations in the PASTA-dataset. With its dataset and metric, the PASTA framework provides consistent and reliable comparisons between XAI techniques, in a way that is scalable but still aligned with human evaluations. Additionally, our benchmark allows for comparisons between explanations across different modalities, an aspect previously unaddressed. Our findings indicate that humans tend to prefer saliency maps over other explanation types. Moreover, we provide evidence that human assessments show a low correlation with existing XAI metrics that are numerically simulated by probing the model.
+\<\/div\>
+
+- R. Kazmierczak, E. Berthier, G. Frehse, G. Franchi. *CLIP-QDA: An explainable concept bottleneck model*. /Transactions on Machine Learning Research Journal (TMLR)/, 2024. \n\[[https://arxiv.org/pdf/2312.00110 arxiv]\] \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\>
+\<div class=\"toggle-wrap\"\>
+*Abstract:* In this paper, we introduce an explainable algorithm designed from a multi-modal foundation model, that performs fast and explainable image classification. Drawing inspiration from CLIP-based Concept Bottleneck Models (CBMs), our method creates a latent space where each neuron is linked to a specific word. Observing that this latent space can be modeled with simple distributions, we use a Mixture of Gaussians (MoG) formalism to enhance the interpretability of this latent space. Then, we introduce CLIP-QDA, a classifier that only uses statistical values to infer labels from the concepts. In addition, this formalism allows for both local and global explanations. These explanations come from the inner design of our architecture, our work is part of a new family of greybox models, combining performances of opaque foundation models and the interpretability of transparent models. Our empirical findings show that in instances where the MoG assumption holds, CLIP-QDA achieves similar accuracy with state-of-the-art methods CBMs. Our explanations compete with existing XAI methods while being faster to compute.
+\<\/div\>
+
+
+- D. Brellmann, E. Berthier, D. Filliat, G. Frehse. *On double descent in reinforcement learning with LSTD and random features*. /The Twelfth International Conference on Learning Representations (ICLR)/, 2024. \n\[[https://arxiv.org/pdf/2310.05518 arxiv]\] \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\>
+\<div class=\"toggle-wrap\"\>
+*Abstract:* Temporal Difference (TD) algorithms are widely used in Deep Reinforcement Learning (RL). Their performance is heavily influenced by the size of the neural network. While in supervised learning, the regime of over-parameterization and its benefits are well understood, the situation in RL is much less clear. In this paper, we present a theoretical analysis of the influence of network size and l2-regularization on performance. We identify the ratio between the number of parameters and the number of visited states as a crucial factor and define over-parameterization as the regime when it is larger than one. Furthermore, we observe a double descent phenomenon, i.e., a sudden drop in performance around the parameter/state ratio of one. Leveraging random features and the lazy training regime, we study the regularized Least-Square Temporal Difference (LSTD) algorithm in an asymptotic regime, as both the number of parameters and states go to infinity, maintaining a constant ratio. We derive deterministic limits of both the empirical and the true Mean-Squared Bellman Error (MSBE) that feature correction terms responsible for the double descent. Correction terms vanish when the l2-regularization is increased or the number of unvisited states goes to zero. Numerical experiments with synthetic and small real-world environments closely match the theoretical predictions.
+\<\/div\>
+
+
+- T. Berthier, E. Berthier. *Mesurer la (haute) intensité d’un combat*. \[/In French/\], /RDN 860/, 2023. \n\[[https://www.defnat.com/e-RDN/vue-article.php?carticle=23175 journal]\] \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\>
+\<div class=\"toggle-wrap\"\>
+*Abstract:* Définir la haute intensité d’un combat n’est pas chose aisée. Il peut y avoir le ressenti du combattant mais aussi la prise en compte de données factuelles. Celles-ci vont être combinées avec des facteurs de variabilité, permettant ainsi de quantifier cette notion d’intensité. Cette approche mathématique est aujourd’hui nécessaire au regard des évolutions.
+\<\/div\>
+
+- E. Berthier. *Efficient algorithms for control and reinforcement learning*. \[/In French/\], /ENS Paris/, PSL Research University, France, 2022. \n\[[https://eloiseberthier.github.io/thesis_updated.pdf manuscript]\] \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\>
+\<div class=\"toggle-wrap\"\>
+*Abstract:* Reinforcement learning describes how an agent can learn to act in an unknown environment in order to maximize its reward in the long run. It has its origins in the field of optimal control, as well as in some works in psychology. The increase in computational power and the use of approximation methods such as neural networks have led to recent successes, in particular in the resolution of games, yet without systematically providing theoretical guarantees. As for the field of optimal control, for which a model of the environment is provided, it has known solid theoretical developments since the 1960s, with numerical tools that have proven useful in many industrial applications. Nevertheless, the numerical resolution of high dimensional nonlinear control problems, which are typically encountered in robotics, remains relatively open today. In this thesis, we develop and analyze efficient algorithms, when possible with theoretical guarantees, for control and reinforcement learning. We show that, even though they are formulated differently, these two problems are very similar. We first focus on the discretization of continuous state deterministic Markov decision processes, by adapting a method developed for continuous time control. Then we propose a method for fast estimation of stability regions applicable to imperfectly known high-dimensional dynamical systems. We then generalize an algorithm for solving control problems derived from polynomial optimization, to non-polynomial systems known through a finite number of observations. For this, we use a sum-of-squares representation of smooth positive functions from kernel methods. Finally, we analyze a classical algorithm in reinforcement learning, the temporal-difference learning algorithm, in its non-parametric version. In particular, we insist on the link between the temporal-difference learning algorithm and the stochastic gradient descent algorithm, for which many convergence results are known.
+\<\/div\>
+
 
 - E. Berthier, Z. Kobeissi, F. Bach. *A Non-asymptotic Analysis of Non-parametric Temporal-Difference Learning*.  /Advances in Neural Information Processing Systems (NeurIPS)/, 2022. \n\[[https://hal.archives-ouvertes.fr/hal-03672958 hal], [poster_neurips.pdf poster], [slides_neurips.pdf slides]\] \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\>
 \<div class=\"toggle-wrap\"\>
@@ -59,8 +96,20 @@ AI is in itself old news but its fields of application never cease to expand and
 ~~~
 
 
+== PhD Students Supervision
+
+- [https://theses.fr/s342704 Eliabelle Mauduit], co-supervised at ENSTA-UMA (2025-)
+
+- [https://theses.fr/s352584 Rémi Kazmierczak], co-supervised at ENSTA-U2IS (2022-)
+
+- [https://theses.fr/2024IPPAE008 David Brellmann], co-supervised at ENSTA-U2IS (2023-2024)
+
 
 == Presentations & Outreach
+
+-  On April 25th 2025, I was invited to present our ICLR 2024 paper on double descent in RL at Inria Scool's seminar in Lille.
+
+-  On March 23th 2023, I was invited to present our CDC 2022 paper at Avignon Université.
 
 -  On November 24th 2022, I have [slides_neurips.pdf presented] our NeurIPS 2022 paper at [https://neuripsinparis.github.io/neurips2022paris/ NeurIPS@Paris 2022].
 

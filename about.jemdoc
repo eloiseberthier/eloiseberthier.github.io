@@ -6,7 +6,7 @@
 
 == Short Curriculum Vitae
 
-- Since November 2022, I am a part-time researcher at [https://www.ensta-paris.fr/ ENSTA Paris], at Unité d'Informatique et d'Ingénierie des Systèmes (U2IS).
+- Since November 2022, I am a part-time researcher at [https://www.ensta-paris.fr/ ENSTA], at Unité d'Informatique et d'Ingénierie des Systèmes (U2IS).
 
 - 2019-2022 - PhD under the supervision of [http://www.di.ens.fr/~fbach/ Francis Bach] in the [http://www.di.ens.fr/sierra/ SIERRA team] (Paris, France).
 
@@ -19,6 +19,8 @@
 
 == Teaching
 
+- In 2023-24 and 2024-25, I was the co-teacher of the AI project course, part of the 3rd year [https://www.ensta-paris.fr/fr/les-parcours-de-specialisation AI track] of ENSTA Paris.
+
 - In 2015-2016, I have worked full-time for 6 month as a teaching assistant at [http://www.villebon-charpak.fr/ Institut Villebon - Georges Charpak] (Orsay, France).
 It is an innovative higher-education science institute, and a teaching laboratory where new learning practices are experimented, including personal projects and close tutoring.
 
@@ -26,6 +28,7 @@ It is an innovative higher-education science institute, and a teaching laborator
 == Service
 
 I have reviewed for:
+	- NeurIPS
 	- IEEE Control Systems Letters (L-CSS)
 	- Automatica
 	- IEEE Transactions on Automatic Control (TAC)
