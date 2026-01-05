@@ -14,4 +14,4 @@ Pour compiler la page "index", run: python2.7 jemdoc.py -c abstract.panel index.
 
 Sur un mac:
 
-/usr/bin/python jemdoc.py -c abstract.panel index.jemdoc
+python2 jemdoc.py -c abstract.panel index.jemdoc
