@@ -7,7 +7,7 @@
 
 == Briefly
 
-Since November 2022, I am a part-time researcher at [https://www.ensta-paris.fr/ ENSTA], at Unité d'Informatique et d'Ingénierie des Systèmes (U2IS). I am interested in computational methods for reinforcement learning and optimal control, along with global optimization methods, and explainability for machine learning. But of course I'm always open to collaborations outside these topics!
+Since November 2022, I am a part-time researcher at [https://www.ensta.fr/ ENSTA], Institut Polytechnique de Paris, at Unité d'Informatique et d'Ingénierie des Systèmes (U2IS). I am also an [https://hi-paris.fr/ Hi! Paris] associate member. I am interested in computational methods for reinforcement learning and optimal control, along with global optimization methods, and explainability for machine learning. But of course I'm always open to collaborations outside these topics!
 
 From September 2019 to October 2022, I was a Ph.D. student under the supervision of [http://www.di.ens.fr/~fbach/ Francis Bach]. I have worked in the [https://www.di.ens.fr/sierra/ SIERRA team] in Paris, which is a joint team between [https://www.inria.fr/centre/paris Inria Paris], [https://www.di.ens.fr/ ENS Paris] and [http://www.cnrs.fr/fr/page-daccueil CNRS]. My research focused on developing efficient algorithms for optimal control and reinforcement learning, with a particular interest in methods which can be applied to robotics, and which come with theoretical guarantees.
 
@@ -23,7 +23,16 @@ Before that, I have worked in the [https://www.epfl.ch/labs/mlo/ MLO] team, unde
 
 ~~~
 
+~~~
+{}{img_left}{ENSTA-HIPARIS.png}{ENSTA & Hi! Paris}{600px}{}{}  
+~~~
+
 == Selected Recent Publications and Preprints
+
+- Z. Kobeissi, E. Berthier. *Model-independent O(1\/k)-convergence rate for TD(0) with linear function approximation, universal learning steps and iid samples*. /AISTATS/, 2026. \n\[[https://openreview.net/forum?id=qNt7M2cCbf conference]\] \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\>
+\<div class=\"toggle-wrap\"\>
+*Abstract:* In this paper, we study the finite-time behavior of the TD(0) temporal-difference method with linear function approximation (LFA). We consider on-policy independent and identically distributed (i.i.d.) samples, a constant learning step, and the Polyak-Juditsky averaging method. We establish a new convergence rate, for the Mean-Square Error (MSE) on the approximated function, that is (i) fast in the sense that it admits an optimal dependency in the number of iterations k (i.e., of order 1\/k), (ii) is robust to ill-conditioning: it only depends on an initial error and model-independent constants and (iii) is sharp up to a multiplicative constant lower than 11. In particular, it does not depend on the smallest eigenvalue of the uncentered covariance matrix of the linear parametrization, unlike all pre-existing O(1\/k) rates in the TD(0) literature. We also introduce PCTD(0), a variant of TD(0), which benefits from better convergence properties under an additional assumption of strong mixing on the Markov Chain.
+\<\/div\>
 
 - E. Mauduit, E. Berthier, A. Simonetto. *No-Regret Gaussian Process Optimization of Time-Varying Functions*. /preprint/, 2025. \n\[[https://arxiv.org/pdf/2512.00517 arxiv]\] \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\>
 \<div class=\"toggle-wrap\"\>
@@ -33,10 +42,4 @@ Before that, I have worked in the [https://www.epfl.ch/labs/mlo/ MLO] team, unde
 - R. Kazmierczak, S. Azzolin, E. Berthier, A. Hedström, P. Delhomme, N. Bousquet, G. Frehse, M. Mancini, B. Caramiaux, A. Passerini, G. Franchi. *Benchmarking XAI Explanations with Human-Aligned Evaluations*. /AAAI AI Alignment Track/, 2026. \n\[[https://arxiv.org/pdf/2411.02470 arxiv]\] \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\>
 \<div class=\"toggle-wrap\"\>
 *Abstract:* In this paper, we introduce PASTA (Perceptual Assessment System for explanaTion of Artificial intelligence), a novel framework for a human-centric evaluation of XAI techniques in computer vision. Our first key contribution is a human evaluation of XAI explanations on four diverse datasets (COCO, Pascal Parts, Cats Dogs Cars, and MonumAI) which constitutes the first large-scale benchmark dataset for XAI, with annotations at both the image and concept levels. This dataset allows for robust evaluation and comparison across various XAI methods. Our second major contribution is a data-based metric for assessing the interpretability of explanations. It mimics human preferences, based on a database of human evaluations of explanations in the PASTA-dataset. With its dataset and metric, the PASTA framework provides consistent and reliable comparisons between XAI techniques, in a way that is scalable but still aligned with human evaluations. Additionally, our benchmark allows for comparisons between explanations across different modalities, an aspect previously unaddressed. Our findings indicate that humans tend to prefer saliency maps over other explanation types. Moreover, we provide evidence that human assessments show a low correlation with existing XAI metrics that are numerically simulated by probing the model.
-\<\/div\>
-
-
-- D. Brellmann, E. Berthier, D. Filliat, G. Frehse. *On double descent in reinforcement learning with LSTD and random features*. /The Twelfth International Conference on Learning Representations (ICLR)/, 2024. \n\[[https://arxiv.org/pdf/2310.05518 arxiv]\] \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\>
-\<div class=\"toggle-wrap\"\>
-*Abstract:* Temporal Difference (TD) algorithms are widely used in Deep Reinforcement Learning (RL). Their performance is heavily influenced by the size of the neural network. While in supervised learning, the regime of over-parameterization and its benefits are well understood, the situation in RL is much less clear. In this paper, we present a theoretical analysis of the influence of network size and l2-regularization on performance. We identify the ratio between the number of parameters and the number of visited states as a crucial factor and define over-parameterization as the regime when it is larger than one. Furthermore, we observe a double descent phenomenon, i.e., a sudden drop in performance around the parameter/state ratio of one. Leveraging random features and the lazy training regime, we study the regularized Least-Square Temporal Difference (LSTD) algorithm in an asymptotic regime, as both the number of parameters and states go to infinity, maintaining a constant ratio. We derive deterministic limits of both the empirical and the true Mean-Squared Bellman Error (MSBE) that feature correction terms responsible for the double descent. Correction terms vanish when the l2-regularization is increased or the number of unvisited states goes to zero. Numerical experiments with synthetic and small real-world environments closely match the theoretical predictions.
 \<\/div\>

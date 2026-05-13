@@ -6,7 +6,7 @@
 
 == Short Curriculum Vitae
 
-- Since November 2022, I am a part-time researcher at [https://www.ensta-paris.fr/ ENSTA], at Unité d'Informatique et d'Ingénierie des Systèmes (U2IS).
+- Since November 2022, I am a part-time researcher at [https://www.ensta.fr/ ENSTA], Institut Polytechnique de Paris, at Unité d'Informatique et d'Ingénierie des Systèmes (U2IS).
 
 - 2019-2022 - PhD under the supervision of [http://www.di.ens.fr/~fbach/ Francis Bach] in the [http://www.di.ens.fr/sierra/ SIERRA team] (Paris, France).
 
@@ -28,6 +28,7 @@ It is an innovative higher-education science institute, and a teaching laborator
 == Service
 
 I have reviewed for:
+        - ICML
 	- NeurIPS
 	- IEEE Control Systems Letters (L-CSS)
 	- Automatica
